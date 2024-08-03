@@ -1,0 +1,502 @@
+/* App.css */
+/* App.css */
+
+/* General body and app styling */
+/* App.css */
+
+/* General body and app styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+}
+
+/* Form Elements */
+input[type="text"], textarea, select {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="text"], textarea {
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Button Styles */
+.button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-primary {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05);
+}
+
+.button-secondary {
+  background-color: #008CBA; /* Blue background */
+  color: white;
+}
+
+.button-secondary:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+}
+
+/* Landing, Main, and other pages styling */
+.page-container {
+  margin: 20px;
+}
+
+/* Form Elements */
+input[type="text"], textarea, select {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="text"], textarea {
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form .error {
+  color: red;
+  font-size: 12px;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.action-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sort-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sort-container label {
+  margin: 0 10px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th, .user-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+.user-table td {
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.user-table tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.user-table tr:hover td {
+  background-color: #f5f5f5;
+}
+
+.join-container {
+  padding: 20px;
+}
+
+.join-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.join-form {
+  margin-bottom: 20px;
+}
+
+.join-form label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.join-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.join-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.join-form button:hover {
+  background-color: #0056b3;
+}
+
+.available-cohorts {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cohort-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cohort-list li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cohort-list button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cohort-list button:hover {
+  background-color: #218838;
+}
+
+
+.create-container {
+  padding: 20px;
+}
+
+.create-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.create-form {
+  margin-bottom: 20px;
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the form */
+}
+
+.create-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-bottom: 15px; /* Adjust spacing between inputs */
+}
+
+.create-form input,
+.create-form textarea,
+.create-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px; /* Adjust spacing above inputs */
+  width: 100%; /* Ensure input fields stretch to container width */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.create-form textarea {
+  height: 100px;
+  max-width: 100%; /* Prevent textarea from exceeding container width */
+}
+
+.create-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-form button:hover {
+  background-color: #0056b3;
+}
+
+.selected-users {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.selected-users ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-users li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-users button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selected-users button:hover {
+  background-color: #c82333;
+}
