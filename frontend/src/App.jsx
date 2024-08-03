@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+import './App.css';//main css file SH
 import Landing from './components/Landing';
 import Navbar from './components/Nav';
 import Main from './components/Main';
