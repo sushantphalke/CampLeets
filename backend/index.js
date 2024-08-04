@@ -4,7 +4,11 @@ const cors = require("cors");
 const router = require("./Routes/index");
 const cron = require("node-cron");
 const {User} = require("./db")
-const {LEETCODE_API} = require("./config")
+
+require('dotenv').config();
+
+const LEETCODE_API = process.env.LEETCODE_API
+
 // Function to update LeetCode data
 async function updateLeetCodeData() {
     try {

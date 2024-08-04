@@ -1,6 +1,8 @@
 const {Router} = require("express");
+require('dotenv').config();
 const router =Router();
-const { LEETCODE_API, JWT_SECRET } = require("../config");
+const JWT_SECRET = process.env.JWT_SECRET;
+const LEETCODE_API  = process.env.LEETCODE_API;
 const jwt = require("jsonwebtoken");
 const {User} = require("./../db")
 const axios = require("axios");
